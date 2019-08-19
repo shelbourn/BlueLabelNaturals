@@ -26,10 +26,5 @@ jQuery( function($){
     bbScroll();
     win.on( 'resize', bbScroll );
 
-    // this is pretty awesome
-    // feel like a hacker
-
-    // yeah, it's bad ass
-
     
 } );
