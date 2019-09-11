@@ -1,11 +1,14 @@
-/* Forces a custom color on hover for header menu items */
+/* Forces a custom color on hover for header menu items and forces a hover bottom border color */
 
 .main-header-menu a:hover {
-    color: #003b7a !important;
-    }
-    
-    /* Adds styling to "Contact" item in menu */
-    
+  color: #003b7a !important;
+  border-bottom: 2px solid;
+  border-bottom-color: #adadad;
+}
+
+/* Adds styling to "Contact" item in menu */
+
+/*
     .menu-highlight {
     color: #1f3e77;
     background: transparent !important;
@@ -35,9 +38,17 @@
     .menu-highlight:active {
     border-radius: 22px;
     }
-    
-    /* Adds underline styling to active page selected in menu bar */
-    
-    .current_page_item a, .current-menu-item a {
-        border-bottom: 4px solid;
-    }
+    */
+
+/* Adds underline styling to active page selected in menu bar */
+
+.current_page_item a,
+.current-menu-item a {
+  border-bottom: 4px solid;
+}
+
+/* Changes color of Woocommerce quick view bar */
+
+.ast-quick-view-text {
+  background: #1f3e7797 !important;
+}
