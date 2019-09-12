@@ -1,0 +1,48 @@
+﻿Chris (9/11/2019, 3:56:55 PM): Hello Matthew Shelbourn! Welcome to Liquid Web. My name is Chris, one moment while I look into your request. 
+Me (9/11/2019, 3:57:09 PM): Hey Chris, how's it going? 
+Chris (9/11/2019, 3:57:09 PM): Hello,
+
+how may I assist you? 
+Chris (9/11/2019, 3:57:24 PM): It's going well. Yourself? 
+Me (9/11/2019, 3:57:37 PM): Pretty good, thanks. 
+Me (9/11/2019, 3:58:05 PM): I'm having an issue updating my DNS settings so that I can link a domain purchased through GoDaddy to my managed Wordpress site. 
+Chris (9/11/2019, 3:58:24 PM): AH, that is the domain name in question? 
+Me (9/11/2019, 3:58:28 PM): I am using an article about going live with your site that I found in your Knowledge Base, but I get stuck. 
+Me (9/11/2019, 3:58:55 PM): Yeah. Do I have to transfer the domain to Liquid Web first before I can do anything with it? 
+Chris (9/11/2019, 4:01:31 PM): You do not. You don't even have to use our namservers. Just the A record has to point to us. 
+Chris (9/11/2019, 4:01:38 PM): What is the domain in question? 
+Me (9/11/2019, 4:01:57 PM): The domain that I was auto-assigned through you or the domain I have in GoDaddy? 
+Me (9/11/2019, 4:02:47 PM): Sidenote... I frickin' hate GoDaddy! But I didn't buy the domain so I didn't have a say in the matter. Arg! Haha 
+Chris (9/11/2019, 4:02:54 PM): I just need the domain name you're trying to change the DNS on. 
+Chris (9/11/2019, 4:03:16 PM): They can certainly be a pain, yes. 
+Me (9/11/2019, 4:03:30 PM): bluelabelnaturals.com 
+Chris (9/11/2019, 4:03:45 PM): They do have some cool DNS tricks built into their platform though. So ultimately they are very handy when you know when they are needed. 
+Me (9/11/2019, 4:04:48 PM): Our current managed domain is v09hgghw-liquidwebsites.com 
+Me (9/11/2019, 4:05:18 PM): I mean, that's pretty catchy and all, but I'm not sure if it's too memorable. Hahaha... sorry, it's been a long day. =) 
+Chris (9/11/2019, 4:06:56 PM): Agreed haha and no problem! It's been a long as here as well. 
+
+So essentially, what is your main goal? Just keep the nameservers where they are at and manage DNS at GoDaddy by changing the A record? That's the fastest solution with the least amount of downtime. 
+Me (9/11/2019, 4:07:29 PM): I just want to change my settings so that when users navigate to bluelabelnaturals.com they see my managed WP site. 
+Chris (9/11/2019, 4:09:25 PM): Right, before or after that initial paragraph it indicates if you have DNS hosted elsehwere, you can just update the A record. 
+Me (9/11/2019, 4:10:55 PM): In the control panel under "domains/DNS"? 
+Chris (9/11/2019, 4:12:13 PM): So you would just grab the IP from the Managed WordPress Portal 67.225.243.237, change the IP at GoDaddy from the current IP and point it to 67.225.243.237. From there, after the A record propagates, you would update the primary domain name in the Managed WordPress Portal to the livesite url. bluelabelnaturals.com.
+
+That performs the search and replace at the database level and replaces our test URL with the live site URL, installs the SSL as well, 
+Me (9/11/2019, 4:12:14 PM): Oh I see what you're saying. My bad, I skipped over that. 
+Chris (9/11/2019, 4:12:34 PM): Oh sorry, no, in the article. Sorry about that. 
+Me (9/11/2019, 4:12:46 PM): No worries. 
+Me (9/11/2019, 4:13:02 PM): Alright cool. I can figure all that out then. 
+Me (9/11/2019, 4:13:11 PM): I appreciate your help dude! 
+Chris (9/11/2019, 4:14:15 PM): Important thing to note, do make sure the DNS propagates first before the name change. This is due to the SSL validation. If you attempt to do this before, the DNS is propagated to the MWP IP, it will fail to change the name and fail to issue the SSL. 
+Me (9/11/2019, 4:14:33 PM): Gotcha, thanks for the tip. 
+Chris (9/11/2019, 4:14:45 PM): If it fails enough times it will have a rate limit and will have to wait about a day before you can change the domain name due to the SSL. 
+Me (9/11/2019, 4:14:55 PM): I see. 
+Me (9/11/2019, 4:15:01 PM): I'll make sure to wait then. 
+Chris (9/11/2019, 4:15:10 PM): We could get around it, but it would an even longer process involving a manual SSL install which has to be ordered through a vendor. 
+Chris (9/11/2019, 4:15:18 PM): https://www.whatsmydns.net/ 
+Me (9/11/2019, 4:15:28 PM): Nah, I don't wanna do all that. Haha 
+Chris (9/11/2019, 4:15:30 PM): Feel free to use that tool to keep an eye out on propagation. 
+Me (9/11/2019, 4:15:36 PM): Awesome! 
+Chris (9/11/2019, 4:15:43 PM): Haha, for sure. No problem though! Let us know if you need anything else. 
+Me (9/11/2019, 4:16:01 PM): Sweet. Thanks again man! I hope the rest of your day is good. 
+Me (9/11/2019, 4:16:05 PM): Take it easy. 
