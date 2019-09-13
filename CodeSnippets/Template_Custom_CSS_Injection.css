@@ -62,3 +62,11 @@ border-radius: 22px;
 .et_slide_in_menu_container .et_mobile_menu a.ds-menu-active {
   color: #fe437d !important;
 } */
+
+/* Adds hover color for specific menu */
+
+.bl-top a:hover {
+  color: #003b7a !important;
+  border-bottom: 2px solid;
+  border-bottom-color: #adadad;
+}
