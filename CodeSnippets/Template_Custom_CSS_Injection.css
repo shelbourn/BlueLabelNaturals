@@ -69,3 +69,39 @@ border-radius: 22px;
   border-bottom: 2px solid;
   border-bottom-color: #adadad;
 }
+
+.bl-top a {
+  color: #003b7a !important;
+  border-bottom: 3px solid;
+  border-bottom-color: #003b7a;
+}
+
+.bl-our-mission a:hover {
+  color: #003b7a !important;
+  border-bottom: 2px solid;
+  border-bottom-color: #adadad;
+}
+
+.bl-why-cbd a:hover {
+  color: #003b7a !important;
+  border-bottom: 2px solid;
+  border-bottom-color: #adadad;
+}
+
+.bl-our-products a:hover {
+  color: #003b7a !important;
+  border-bottom: 2px solid;
+  border-bottom-color: #adadad;
+}
+
+.bl-shop a:hover {
+  color: #003b7a !important;
+  border-bottom: 2px solid;
+  border-bottom-color: #adadad;
+}
+
+.bl-shop:active a {
+  color: #003b7a !important;
+  border-bottom: 3px solid;
+  border-bottom-color: #003b7a;
+}
