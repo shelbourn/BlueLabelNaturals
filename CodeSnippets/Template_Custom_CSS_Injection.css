@@ -1,54 +1,56 @@
 /* Forces a custom color on hover for header menu items and forces a hover bottom border color */
 
-/*
 .main-header-menu a:hover {
-color: #003b7a !important;
-border-bottom: 2px solid;
-border-bottom-color: #adadad;
+  color: #003b7a !important;
+  border-bottom: 2px solid;
+  border-bottom-color: #adadad;
 }
-*/
 
 /* Adds styling to "Contact" item in menu */
 
 /*
-.menu-highlight {
-color: #1f3e77;
-background: transparent !important;
-border-color: #1f3e77;
-border-style: solid;
-border-width: 2px;
-border-radius: 30px;
-padding: 0px 7px;
-transition: all 0.2s linear;
-line-height:45px;
-}
- 
-.menu-highlight a {
- color:#1f3e77
-}
- 
-.menu-highlight:hover {
-color: #1f3e77;
-background: #ffffff !important;
-border-color: #1f3e77;
-}
- 
-li.menu-highlight:hover a {
- color:#1f3e77;
-}
- 
-.menu-highlight:active {
-border-radius: 22px;
-}
-*/
+  .menu-highlight {
+  color: #1f3e77;
+  background: transparent !important;
+  border-color: #1f3e77;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 30px;
+  padding: 0px 7px;
+  transition: all 0.2s linear;
+  line-height:45px;
+  }
+   
+  .menu-highlight a {
+   color:#1f3e77
+  }
+   
+  .menu-highlight:hover {
+  color: #1f3e77;
+  background: #ffffff !important;
+  border-color: #1f3e77;
+  }
+   
+  li.menu-highlight:hover a {
+   color:#1f3e77;
+  }
+   
+  .menu-highlight:active {
+  border-radius: 22px;
+  }
+  */
 
 /* Adds underline styling to active page selected in menu bar */
 
 /*
-.current_page_item a, .current-menu-item a {
-    border-bottom: 4px solid;
-}
-*/
+  
+  .current_page_item:not(#our-mission):not(#why-cbd):not(#our-products) .current-menu-item:not(#our-mission):not(#why-cbd):not(#our-products)  {
+      color: #003b7a !important;
+      border-bottom: 3px solid !important;
+      border-bottom-color: #003b7a !important;
+  }
+  
+  */
 
 /* Changes color of Woocommerce quick view bar */
 
@@ -56,52 +58,60 @@ border-radius: 22px;
   background: #1f3e7797 !important;
 }
 
-/* Adds custom CSS for the jQuery highlight menu snippet */
+/* CSS for the jQuery highlight menu snippet */
 
-/* a.ds-menu-active .et_slide_in_menu_container .et_mobile_menu a.ds-menu-active {
-  color: #fe437d !important;
-} */
-
-/* Adds hover color for specific menu */
-
-.bl-top a:hover {
+/*
+  a.ds-menu-active,
+  .et_slide_in_menu_container .et_mobile_menu a.ds-menu-active {
   color: #003b7a !important;
-  border-bottom: 2px solid;
-  border-bottom-color: #adadad;
-}
+  }
+  */
 
-.bl-top a {
-  color: #003b7a !important;
-  border-bottom: 3px solid;
-  border-bottom-color: #003b7a;
-}
+/* Menu Highlight functions */
 
-.bl-our-mission a:hover {
-  color: #003b7a !important;
-  border-bottom: 2px solid;
-  border-bottom-color: #adadad;
-}
+/*
+  .bl-top a:hover {
+    color: #003b7a !important;
+    border-bottom: 2px solid;
+    border-bottom-color: #adadad;
+  }
+  
+  .bl-our-mission a:hover {
+    color: #003b7a !important;
+    border-bottom: 2px solid;
+    border-bottom-color: #adadad;
+  }
+  
+  .bl-why-cbd a:hover {
+    color: #003b7a !important;
+    border-bottom: 2px solid;
+    border-bottom-color: #adadad;
+  }
+  
+  .bl-our-products a:hover {
+    color: #003b7a !important;
+    border-bottom: 2px solid;
+    border-bottom-color: #adadad;
+  }
+  
+  .bl-shop a:hover {
+    color: #003b7a !important;
+    border-bottom: 2px solid;
+    border-bottom-color: #adadad;
+  }
+  
+  .bl-shop:active a {
+    color: #003b7a !important;
+    border-bottom: 3px solid;
+    border-bottom-color: #003b7a;
+  }
+  */
 
-.bl-why-cbd a:hover {
-  color: #003b7a !important;
-  border-bottom: 2px solid;
-  border-bottom-color: #adadad;
-}
+/*Selectively style active menu items */
 
-.bl-our-products a:hover {
+.current-menu-item:not(.bl-our-mission):not(.bl-why-cbd):not(.bl-our-products)
+  a {
   color: #003b7a !important;
-  border-bottom: 2px solid;
-  border-bottom-color: #adadad;
-}
-
-.bl-shop a:hover {
-  color: #003b7a !important;
-  border-bottom: 2px solid;
-  border-bottom-color: #adadad;
-}
-
-.bl-shop:active a {
-  color: #003b7a !important;
-  border-bottom: 3px solid;
-  border-bottom-color: #003b7a;
+  border-bottom: 3px solid !important;
+  border-bottom-color: #003b7a !important;
 }
