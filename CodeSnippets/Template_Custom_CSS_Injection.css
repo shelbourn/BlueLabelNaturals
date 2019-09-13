@@ -55,3 +55,8 @@ border-radius: 22px;
 .ast-quick-view-text {
   background: #1f3e7797 !important;
 }
+
+#main-header #top-menu a.ds-menu-active,
+.et_slide_in_menu_container .et_mobile_menu a.ds-menu-active {
+  color: #fe437d !important;
+}
