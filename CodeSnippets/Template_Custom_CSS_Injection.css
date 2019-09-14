@@ -109,7 +109,7 @@
 
 /*Selectively style active menu items */
 
-.current-menu-item:not(.bl-our-mission):not(.bl-why-cbd):not(.bl-our-products):not(.bl-tinctures):not(.bl-topicals):not(.bl-cbd-e-eliquid):not(.pet-products):not(.water):not(.gummies)
+.current-menu-item:not(.bl-our-mission):not(.bl-why-cbd):not(.bl-our-products):not(.bl-tinctures):not(.bl-topicals):not(.bl-cbd-e-eliquid):not(.bl-pet-products):not(.bl-water):not(.bl-gummies)
   a {
   color: #003b7a !important;
   border-bottom: 3px solid !important;
