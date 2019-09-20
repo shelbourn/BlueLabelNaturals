@@ -121,3 +121,9 @@
   border-bottom: 3px solid !important;
   border-bottom-color: #003b7a !important;
 }
+
+/* Forces single product main image to display */
+
+.product.has-default-attributes.has-children > .images {
+  opacity: 1;
+}
